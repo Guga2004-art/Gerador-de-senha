@@ -2,7 +2,7 @@ const botao = document.getElementById("click")
 const texto = document.getElementById("senha")
 
 botao.addEventListener("click", () => {
-  const alfabeto = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+  const alfabeto = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()?/."
   const tamanhoAleatorio = Math.floor(Math.random() * 17) + 4
   let senha = ''
 
